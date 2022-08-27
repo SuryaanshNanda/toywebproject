@@ -1,0 +1,408 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.pageone{
+	background-image: url('saveback.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.box1{
+	position: relative;
+	width: 280px;
+	border: 2px solid white;
+	margin: 50px auto;
+	overflow: hidden;
+
+}
+.box1 img{
+	width: 100%;
+	height: auto;
+
+
+}
+.content1{
+	position: absolute;
+	font-family: Cursive;
+	background: rgba(255,255,255,0.7);
+	color: #000;
+	top: 0;
+	left: -100%;
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.box1:hover .content1{
+	left: 0;
+}
+.content1 h3{
+	text-align: center;
+	font-size: 15px;
+}
+.content1 p{
+	font-size: 12px;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px 0;
+}
+
+.box2{
+	position: relative;
+	width: 280px;
+	border: 2px solid #fff;
+	margin: 70px auto;
+	overflow: hidden;
+
+}
+.box2 img{
+	width: 100%;
+	height: auto;
+
+
+}
+.content2{
+	position: absolute;
+	font-family: Cursive;
+	background: rgba(255,255,255,0.7);
+	color: #000;
+	top: 100%;
+	left:0;
+	height: 100%;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.box2:hover .content2{
+	top: 0;
+}
+.content2 h3{
+	text-align: center;
+	font-size: 15px;
+}
+.content2 p{
+	font-size: 10px;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px 0;
+}
+
+.box3{
+	position: relative;
+	width: 280px;
+	border: 2px solid #fff;
+	margin: 50px auto;
+	overflow: hidden;
+
+}
+.box3 img{
+	width: 100%;
+	height: auto;
+
+
+
+}
+.content3{
+	position: absolute;
+	font-family: Cursive;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	top: 0;
+	left: 100%;
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.box3:hover .content3{
+	left: 0;
+}
+.content3 h3{
+	text-align: center;
+	font-size: 15px;
+}
+.content3 p{
+	font-size: 12px;
+	text-align: center;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 20px 0;
+}
+
+.topmenu ul{
+	background: rgba(255,255,255,0.7);
+	width: 100%
+	height:100%;
+	text-align: center;
+	position: relative;
+
+}
+.topmenu ul li{
+	line-height: 40px;
+	display: inline-block;
+	letter-spacing: 2px;
+	padding: 0 15px;
+	transition: 0.4s;
+
+}
+.topmenu ul li a{
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	display: block;
+	font-weight: bold;
+}
+.content3 a{
+	text-decoration: none;
+	font-family: Cursive;
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	font-weight: bold;
+	transition: 0.6s;
+}
+.content3 a:hover{
+	color: #9a7b4f; }
+
+.headtop h1{
+	font-family: Cursive;
+	color:  #AA336A;
+	margin: 30px 45%;
+	position: relative;
+
+}
+.topmenu ul li:hover{
+	background:#f4c2c2;
+}
+
+.mytrivia{
+	text-align: center;
+	margin: auto;
+	padding-top: 30px;
+	width: 80%;
+}
+
+.mytrivia .row .col h3{
+	color: #FF8C00;
+	padding-left: 8px;
+	height: 100px;
+
+}
+.mytrivia .row .col p{
+	border-top: 2px solid orange;
+	color: #8B8000;
+	padding-left: 100px;
+	height: 300px;
+	text-align: center;
+
+
+}
+
+.mytrivia .row .col img{
+	float: left;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.mytrivia .row .col2 h3{
+	color: #FF8C00;
+	padding-left: 8px;
+	height: 100px;
+
+}
+.mytrivia .row .col2 p{
+	border-top: 2px solid orange;
+	color: #8B8000;
+	padding-right: 20px;
+	height: 300px;
+	text-align: center;
+
+}
+.mytrivia .row .col2 img{
+	float: right;
+    height: 350px;
+    border: 2px solid black;
+}
+.seasonchar{
+  padding-top: 30px;
+  background-image: url('scen.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+}
+.seasonchar h2{
+    text-align: center;
+    font-family: cursive;
+    color: #fff;
+    height: 60px;
+	}
+.seasonchar .row1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.seasonchar .row1 .col1{
+	width: 300px;
+
+	margin: 10px,auto;
+	box-shadow: 0,0,5px #bababa;
+}
+.seasonchar .row1 .col1 img{
+    height: auto;
+    width: 100%;
+    margin:0 5% 0;
+    transform: scale(1);
+    border: 2px solid white;
+    transition: all 0.5s;
+}
+.seasonchar .row1 .col1:hover img{
+    height: auto;
+    width: 300px;
+    transform: scale(1.05);
+    border: 2px solid white;
+
+}
+.seasonchar .row1 .col2{
+	width: 300px;
+	margin: 10px,auto;
+	box-shadow: 0,0,5px #bababa;
+}
+
+.seasonchar .row1 .col2 img{
+    height: 43%;
+    width: 75%;
+    transition: all 0.5s;
+    border: 2px solid white;
+}
+.seasonchar .row1 .col2:hover img{
+    height: 43.1%;
+    width: 76%;
+    transform: scale(1.05);
+
+    border: 2px solid white;
+
+}
+.seasonchar .row1 .col3 img{
+ height: 43%;
+    width: 75%;
+    transition: all 0.5s;
+    border: 2px solid white;
+}
+
+.seasonchar .row1 .col3:hover img{
+    height: 43.1%;
+    width: 76%;
+    transform: scale(1.05);
+
+    border: 2px solid white;
+
+}
+
+.seasonchar .row1 .col1 p{
+	color: #fff;
+	padding-left: 100px;
+	margin:10,auto,10;
+	height: 35px;
+	font-size: 14px;
+
+}
+.seasonchar .row1 .col1 h3{
+	color: #fff;
+	text-align: center;}
+
+.seasonchar .row1 .col2 p{
+	color: #fff;
+	padding-left: 10px;
+	margin:10,auto,10;
+	height: 35px;
+	text-align:left;
+	font-size: 14px;
+	margin-top: 10px;
+
+}
+.seasonchar .row1 .col2 h3{
+	color: #fff;
+	text-align: center;
+	
+    }
+    .seasonchar .row1 .col3 p{
+	color: #fff;
+	
+	margin:10,50,10;
+	height: 35px;
+	
+	font-size: 14px;
+	margin-top: 10px;
+
+}
+.seasonchar .row1 .col3 h3{
+	color: #fff;
+	text-align: center;
+	
+  }
+
+  .seasonchar .row1 .col1{
+	overflow: hidden;
+
+}
+.seasonchar .row1 .col2{
+	overflow: hidden;
+
+}
+.seasonchar .row1 .col3{
+	overflow: hidden;
+
+}
+.seasonchar .row1 .col1 .inside{
+	position: relative;
+	font-family: Cursive;
+	color: #fff;
+	top: 100%;
+	left:0;
+	height: 100%;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.seasonchar .row1 .col1:hover .inside{
+	top: 0;
+}
+
+.seasonchar .row1 .col2 .inside{
+	position: relative;
+	font-family: Cursive;
+	color: #fff;
+	top: 100%;
+	left:0;
+	height: 100%;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.seasonchar .row1 .col2:hover .inside{
+	top: 0;
+}
+.seasonchar .row1 .col3 .inside{
+	position: relative;
+	font-family: Cursive;
+	color: #fff;
+	top: 100%;
+	left:0;
+	height: 100%;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.seasonchar .row1 .col3:hover .inside{
+	top: 0;
+}
